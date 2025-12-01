@@ -1,0 +1,23 @@
+{
+  "uuid": "12345678-90ab-cdef-1234-567890abcdef",
+  "shortName": "TxtReader",
+  "longName": "Pebble TXT Reader",
+  "companyName": "YourName",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": [
+    "basalt"
+  ],
+  "watchapp": {
+    "watchface": false
+  },
+  "resources": {
+    "media": [],
+    "raw": [
+      {
+        "file": "resources/data/book.txt",
+        "name": "DATA_BOOK"
+      }
+    ]
+  }
+}
