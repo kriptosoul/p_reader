@@ -1,0 +1,9 @@
+A Sample Book
+
+This is a short sample book included with the Pebble TXT Reader project.
+
+Use this file as an example. Replace with your own .txt file and update appinfo.json
+if desired.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.
+Cras venenatis euismod malesuada. Integer non purus ut nisl sollicitudin cursus.
