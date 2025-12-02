@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Build PBW inside Pebble SDK container
       uses: addnab/docker-run-action@v3
@@ -24,7 +24,7 @@ jobs:
           pebble build
 
     - name: Upload PBW artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: Pebble-Build
         path: build/*.pbw
